@@ -6,23 +6,26 @@ import { Component } from '@angular/core';
   styleUrls: ['./about.component.scss']
 })
 export class AboutComponent {
-  showEducation:boolean=true;
+  showCompany:boolean=true;
   showProjects:boolean=true;
 
   projects = [
     {
       name :'Project 1',
-      description: 'Description of Project 1'
+      description: 'Cirpack',
+      year: 2023
     },
 
     {
       name :'Project 2',
-      description: 'Description of Project 2'
+      description: '5G/USC',
+      year: 2024
     },
 
     {
       name :'Project 3',
-      description: 'Description of Project 3'
+      description: 'Soctrip',
+      year: 2024
     },
   ]
 }

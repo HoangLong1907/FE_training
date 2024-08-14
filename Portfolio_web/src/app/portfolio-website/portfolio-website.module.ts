@@ -8,6 +8,7 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { MatCardModule } from '@angular/material/card';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { MatCardModule } from '@angular/material/card';
   imports: [
     CommonModule,
     PortfolioWebsiteRoutingModule,
-    MatCardModule
+    MatCardModule,
+    ReactiveFormsModule
   ]
 })
 export class PortfolioWebsiteModule { }

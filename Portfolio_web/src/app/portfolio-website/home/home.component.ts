@@ -13,5 +13,15 @@ import { FooterComponent } from '../footer/footer.component';
   // ]
 })
 export class HomeComponent {
+  openAngularWebsite() {
+    window.open('https://angular.io', '_blank');
+  }
 
+  openJavaScriptWebsite() {
+    window.open('https://javascript.info/', '_blank');
+  }
+
+  openCssWebsite() {
+    window.open('https://cssreference.io/', '_blank');
+  }
 }
